@@ -5,7 +5,7 @@ Dado que acesso pagina inicial de busca por veiculos
 Pesquiso por Honda City e seleciono o veiculo, sou redirecionado para uma página onde me permite me visualizar os anúncios do referido veículo e a seleção de filtros avançados 
 Seleciono a versão do veículo desejado 
 Escolho filtrar por de anuncios de loja 
-Então, é mostrado na tela todos os anuncios refernte ao veículo buscado, onde, os vendedores são somente "Lojas"
+Então, é mostrado na tela todos os anuncios referente ao veículo buscado, onde, os vendedores são somente "Lojas"
 
 Dado que selecionei um anuncio
 Quando seleciono a opção para ver todo o estoque daquela loja 
