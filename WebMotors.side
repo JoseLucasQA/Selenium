@@ -1,0 +1,199 @@
+{
+  "id": "de895f6a-c158-4169-a08f-f4f115e962d5",
+  "version": "2.0",
+  "name": "WebMotors",
+  "url": "https://www.webmotors.com.br/",
+  "tests": [{
+    "id": "2b450e3e-2294-4347-9e98-b9b1f5b0b785",
+    "name": "Buscar por Carro",
+    "commands": [{
+      "id": "810609ec-a526-47e6-a4fe-b891f27f489a",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.webmotors.com.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8108a887-bf32-467b-adc2-6ef4e26febe3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29b18a94-22c5-4cee-a515-d8af9cad6a9f",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchBar",
+      "targets": [
+        ["id=searchBar", "id"],
+        ["css=#searchBar", "css:finder"],
+        ["xpath=//input[@id='searchBar']", "xpath:attributes"],
+        ["xpath=//div[@id='WhiteBox']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b845591e-7d1a-4133-a6ea-cf76da12b491",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchBar",
+      "targets": [
+        ["id=searchBar", "id"],
+        ["css=#searchBar", "css:finder"],
+        ["xpath=//input[@id='searchBar']", "xpath:attributes"],
+        ["xpath=//div[@id='WhiteBox']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Honda City"
+    }, {
+      "id": "9b62ecb7-7283-40b5-a453-697c1ddc9dd8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.SearchBar__results__result__name > strong:nth-child(2)",
+      "targets": [
+        ["css=.SearchBar__results__result__name > strong:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='WhiteBox']/div/div[2]/div/div/div/div/div/div/a/div[2]/strong[2]", "xpath:idRelative"],
+        ["xpath=//strong[2]", "xpath:position"],
+        ["xpath=//strong[contains(.,'City')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7cdd4e5-7375-434d-bdf9-c7e0d20a32b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Filters__container__group:nth-child(1) > .Filters__container__group__title",
+      "targets": [
+        ["css=.Filters__container__group:nth-child(1) > .Filters__container__group__title", "css:finder"],
+        ["xpath=//div[@id='root']/main/div/div[2]/div/div/div[2]/div[2]/div/form/div/div", "xpath:idRelative"],
+        ["xpath=//form/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28cd8d52-92c5-459f-a3e0-9127c147ddf8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Filters__line--gray",
+      "targets": [
+        ["css=.Filters__line--gray", "css:finder"],
+        ["xpath=//div[@id='root']/main/div/div[2]/div/div/div[2]/div[2]/div/form/div[5]/div[2]/div[2]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32387cb5-8f24-48d8-8e34-953b32e90343",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=1.5 DX 16V FLEX 4P MANUAL",
+      "targets": [
+        ["linkText=1.5 DX 16V FLEX 4P MANUAL", "linkText"],
+        ["css=.Filters__line__result:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'1.5 DX 16V FLEX 4P MANUAL')]", "xpath:link"],
+        ["xpath=//div[@id='root']/main/div/div[2]/div/div[2]/div/div[4]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.webmotors.com.br/carros/estoque/honda/city/15-dx-16v-flex-4p-manual')]", "xpath:href"],
+        ["xpath=//div[4]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'1.5 DX 16V FLEX 4P MANUAL')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4407b1fc-6caf-494a-9923-b5c29b6b172b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9810901d-34e4-443d-a6e7-1f8223efc1d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Filters__container__group:nth-child(5) > .Form__InputRow:nth-child(3) > .Checkbox",
+      "targets": [
+        ["css=.Filters__container__group:nth-child(5) > .Form__InputRow:nth-child(3) > .Checkbox", "css:finder"],
+        ["xpath=//div[@id='root']/main/div/div[2]/div/div[5]/div[3]/label", "xpath:idRelative"],
+        ["xpath=//div[5]/div[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Loja')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "968340b2-c698-4a31-a9ef-bc1fb2ca1610",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sc-hMFtBS:nth-child(1) .sc-kgAjT",
+      "targets": [
+        ["css=.sc-hMFtBS:nth-child(1) .sc-kgAjT", "css:finder"],
+        ["xpath=//div[@id='root']/main/div/div[3]/div[2]/div/div/div/div/div/div[2]/div/a[2]/ul", "xpath:idRelative"],
+        ["xpath=//a[2]/ul", "xpath:position"],
+        ["xpath=//ul[contains(.,'Aceita troca')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c56d886f-2f1a-4af2-868a-a3ec75748bf6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sc-hMFtBS:nth-child(1) .sc-kgAjT",
+      "targets": [
+        ["css=.sc-hMFtBS:nth-child(1) .sc-kgAjT", "css:finder"],
+        ["xpath=//div[@id='root']/main/div/div[3]/div[2]/div/div/div/div/div/div[2]/div/a[2]/ul", "xpath:idRelative"],
+        ["xpath=//a[2]/ul", "xpath:position"],
+        ["xpath=//ul[contains(.,'Aceita troca')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d4c97b4-4cd6-4512-9c96-e9acba12231c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-hMFtBS:nth-child(1) .sc-bbmXgH",
+      "targets": [
+        ["css=.sc-hMFtBS:nth-child(1) .sc-bbmXgH", "css:finder"],
+        ["xpath=//div[@id='root']/main/div/div[3]/div[2]/div/div/div/div/div/div[2]/div/a/div/h3", "xpath:idRelative"],
+        ["xpath=//a/div/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'1.5 DX 16V FLEX 4P MANUAL')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1135",
+      "windowTimeout": 2000
+    }, {
+      "id": "f8a0608f-b237-4997-ad70-7e295ba44ae2",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1135}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b6f23fa-0813-4b16-bd36-d1e3818e7ffd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1217)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86653082-fde7-431c-9b04-2cac21a7ef45",
+      "comment": "",
+      "command": "click",
+      "target": "id=VehicleSellerInformationStock",
+      "targets": [
+        ["id=VehicleSellerInformationStock", "id"],
+        ["linkText=Ver todos os carros deste vendedor", "linkText"],
+        ["css=#VehicleSellerInformationStock", "css:finder"],
+        ["xpath=//a[contains(text(),'Ver todos os carros deste vendedor')]", "xpath:link"],
+        ["xpath=//a[@id='VehicleSellerInformationStock']", "xpath:attributes"],
+        ["xpath=//div[@id='VehicleSellerInformation']/div/div[4]/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/carros/estoque/?idrevendedor=3827385&idcmpint=t1:c17:m07:webmotors:ver-estoque-vendedor::')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ver todos os carros deste vendedor')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "36fe7cdb-38f4-4d53-a47d-54bf4168c410",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2b450e3e-2294-4347-9e98-b9b1f5b0b785"]
+  }],
+  "urls": ["https://www.webmotors.com.br/"],
+  "plugins": []
+}
