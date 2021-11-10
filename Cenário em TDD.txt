@@ -1,14 +1,12 @@
-Sendo um usu·rio do site WebMotors
-Quero fazer uma busca por um determinado modelo veÌculo 
+Sendo um usu√°rio do site WebMotors
+Quero fazer uma busca por um determinado modelo ve√≠culo 
 
 Dado que acesso pagina inicial de busca por veiculos
-Pesquiso por Honda City e seleciono veiculo sou redirecionado para uma p·gina onde me permite uma busca com melhores  filtros
-Seleciono a vers„o do veÌculo desejado 
-Escolho o filtro de anuncios de loja 
-Ent„o, È mostrado na tela todos os anuncios refernte ao veÌculo buscado, onde, os vendedores s„o somente "Lojas"
+Pesquiso por Honda City e seleciono o veiculo, sou redirecionado para uma p√°gina onde me permite me visualizar os an√∫ncios do referido ve√≠culo e a sele√ß√£o de filtros avan√ßados 
+Seleciono a vers√£o do ve√≠culo desejado 
+Escolho filtrar por de anuncios de loja 
+Ent√£o, √© mostrado na tela todos os anuncios refernte ao ve√≠culo buscado, onde, os vendedores s√£o somente "Lojas"
 
 Dado que selecionei um anuncio
-Quando seleciono a opÁ„o para ver todo o estoque daquela loja 
-Entao È mostrado todos os anuncios de veÌculos daquela determinada loja 
-
-
+Quando seleciono a op√ß√£o para ver todo o estoque daquela loja 
+Entao √© mostrado todos os anuncios de ve√≠culos daquela determinada loja
