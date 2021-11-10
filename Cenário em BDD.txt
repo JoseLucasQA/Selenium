@@ -1,3 +1,4 @@
+[Ambiente Web]
 Sendo um usuário do site WebMotors
 Quero fazer uma busca por um determinado modelo veículo 
 
@@ -10,3 +11,10 @@ Então, é mostrado na tela todos os anuncios referente ao veículo buscado, ond
 Dado que selecionei um anuncio
 Quando seleciono a opção para ver todo o estoque daquela loja 
 Entao é mostrado todos os anuncios de veículos daquela determinada loja
+
+[API] 
+
+Dado a requisição para verificar as marcas de veiculo 
+Então é me retornado os ID das marcas
+Dado o ID da Marca, é feita a consulta dos modelos de veículos
+Dado o ID do modelo desejado, é feita a consulta pelas versões disponíveis 
